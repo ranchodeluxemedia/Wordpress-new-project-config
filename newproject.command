@@ -200,7 +200,7 @@ rm salt.txt
 # --------------------
 # Create Sublime Project config file
 # --------------------
-echo 'Create Sublime text 2 project file...'
+echo 'Create Sublime Text project file...'
 SUBLIME_PROJECT_FILE=$PROJECT_NAME".sublime-project"
 touch $SUBLIME_PROJECT_FILE
 echo '{
@@ -295,15 +295,15 @@ fi
 # --------------------
 # Launch sublime project
 # --------------------
-echo 'Launch Sublime text 2'
+echo 'Launch Sublime Text'
 cd $PROJECT_DIR
 "$SUBLIME_PATH" $SUBLIME_PROJECT_FILE
 
 # --------------------
 # Create a new project in CodeKit
 # --------------------
-echo 'Create codekit project'
-open -a /Applications/CodeKit.app $PROJECT_DIR"/wp-content/themes/"$PROJECT_NAME
+# echo 'Create codekit project'
+# open -a /Applications/CodeKit.app $PROJECT_DIR"/wp-content/themes/"$PROJECT_NAME
 
 # --------------------
 # git init
