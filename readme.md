@@ -1,6 +1,6 @@
 WordpressConfig  
 ====================
-(customized fork of (https://github.com/jeremycastelli/Wordpress-new-project-config/ "Wordpress New Project Config"))
+fork of[Wordpress New Project Config](https://github.com/jeremycastelli/Wordpress-new-project-config/ "Wordpress New Project Config")
 --------------------
 
 ##A few changes...
